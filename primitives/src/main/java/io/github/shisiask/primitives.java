@@ -6,7 +6,7 @@ public class primitives {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
-        System.out.println("Hello and welcome!");
+        System.out.print("Hello and welcome!");
 
         int a = 2;
         float b = 6.7f;
@@ -17,6 +17,7 @@ public class primitives {
         char g = 'a';
         byte h = 127;
         //output statements
-        System.out.println("Print a "+ a +" print " +g);
+        System.out.println("Hello "+ f );
+        System.out.println("Line 2 "+f );
     }
 }
