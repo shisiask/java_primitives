@@ -19,5 +19,27 @@ public class primitives {
         //output statements
         System.out.println("Hello "+ f );
         System.out.println("Line 2 "+f );
+
+        //loops
+        for(int i = 0; i < 10; i++) {
+            System.out.println("Loop "+i);
+        }
+        int z = 0;
+        while (z<10)
+        {
+            System.out.println("While Loop "+z);
+            z++;
+        }
+
+        /* Strings */
+
+        String cool = "hello";
+        System.out.println(cool);
+
+        /* Array */
+
+        String[] coolArray = {"hello", "world"};
+        for (String s : coolArray) System.out.println(s);
+
     }
 }
