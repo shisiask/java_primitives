@@ -16,11 +16,14 @@ public class primitives {
         boolean f = true;
         char g = 'a';
         byte h = 127;
+
         //output statements
+
         System.out.println("Hello "+ f );
         System.out.println("Line 2 "+f );
 
         //loops
+
         for(int i = 0; i < 10; i++) {
             System.out.println("Loop "+i);
         }
@@ -41,5 +44,17 @@ public class primitives {
         String[] coolArray = {"hello", "world"};
         for (String s : coolArray) System.out.println(s);
 
+        //matrix
+
+        int[][] matrix = {
+                {1,2,3},
+                {4,5,6}
+        };
+        for (int[] row : matrix) {
+            for (int value : row) {
+                System.out.print(value + " ");
+            }
+            System.out.println();
+        }
     }
 }
