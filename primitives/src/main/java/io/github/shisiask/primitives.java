@@ -11,9 +11,12 @@ public class primitives {
         int a = 2;
         float b = 6.7f;
         short c =10;
-        long d = 11;
+        long d = 11545465566464L;
         double e = 12.3;
         boolean f = true;
         char g = 'a';
+        byte h = 127;
+        //output statements
+        System.out.println("Print a "+ a +" print " +g);
     }
 }
